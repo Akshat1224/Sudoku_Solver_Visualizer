@@ -100,7 +100,7 @@ public class SudokuSolver {
 
     static void solveSudoku() {
         try {
-            Thread.sleep(200);
+            Thread.sleep(20);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -108,7 +108,7 @@ public class SudokuSolver {
         for (int i = 0; i < N; ++i) {
             for (int j = 0; j < N; ++j) {
                 try {
-                    Thread.sleep(10);
+                    Thread.sleep(5);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -163,7 +163,7 @@ public class SudokuSolver {
         System.out.println();
         solveSudoku();
 
-        printSolution();
+        
     }
 }
 
